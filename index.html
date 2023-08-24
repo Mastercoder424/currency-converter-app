@@ -41,6 +41,7 @@
             justify-content: center;
             align-items: center;
             margin: 0 23px;
+            font-size: 24px;
         }
 
         nav ul li {
@@ -60,7 +61,8 @@
             margin: auto;
         }
 
-        .container h1, h2 {
+        .container h1,
+        h2 {
             margin: 23px 0;
         }
 
@@ -74,7 +76,8 @@
         }
 
         .container form input[type='number'],
-        select,label {
+        select,
+        label {
             font-size: 25px;
             margin-bottom: 23px 0;
             width: 23vw;
@@ -101,11 +104,39 @@
             font-size: 20px;
         }
 
-        @media (max-width: 600px) {
-         body { 
-            background-color: brown }
-       }  
+        .output tablw th{
+            padding: 3px;
+        }
 
+
+        @media (max-width: 600px) {
+            body {
+                background-color: rgb(59, 121, 100)
+            }
+
+        nav {
+            flex-direction: column;
+            font-size: 14px;
+        }
+
+        nav ul li {
+            margin: 5px 3px;
+        }
+
+        nav ul {
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 95vw;
+        }
+
+        .container form input[type='number'],
+        select,
+        label {
+            width: 80vw;
+        }
+    }
 
         footer {
             font-family: 'Poppins', sans-serif;
